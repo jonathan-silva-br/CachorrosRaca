@@ -17,6 +17,10 @@ public class AdapterRecycler extends RecyclerView.Adapter<AdapterRecycler.MyView
 
     private ArrayList<Raca> listaRacas;
 
+    public void setListaRacas(ArrayList<Raca> listaRacas) {
+        this.listaRacas = listaRacas;
+    }
+
     public AdapterRecycler(ArrayList<Raca> listaRacas){
         this.listaRacas = listaRacas;
     }

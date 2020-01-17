@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView = findViewById(R.id.recyclerRacas);
 
+        listaRacas = new ArrayList<>();
+
         //Configura AdapterRecycler
         AdapterRecycler adapter = new AdapterRecycler(listaRacas);
 

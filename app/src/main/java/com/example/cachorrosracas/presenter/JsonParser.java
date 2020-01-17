@@ -52,6 +52,7 @@ public class JsonParser {
                         }
                     }
 
+                    adapterRecycler.setListaRacas(listaRacas);
                     adapterRecycler.notifyDataSetChanged();
 
                 }catch (JSONException e) {

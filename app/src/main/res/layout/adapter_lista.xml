@@ -8,9 +8,9 @@
     <TextView
         android:id="@+id/textRaca"
         android:layout_width="match_parent"
-        android:layout_height="36dp"
+        android:layout_height="wrap_content"
         android:background="#C2E6DF"
-        android:text="Raca"
         android:gravity="center"
+        android:text="Raca"
         android:textSize="18sp" />
 </LinearLayout>
