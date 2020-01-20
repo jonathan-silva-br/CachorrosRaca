@@ -2,15 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#40ACCA"
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textRaca"
+        android:id="@+id/textSubRaca"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#22C2B3"
-        android:gravity="center"
-        android:text="Raca"
+        android:text="TextView"
         android:textSize="18sp" />
 </LinearLayout>
